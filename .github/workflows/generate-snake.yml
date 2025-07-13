@@ -16,6 +16,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake.gif
+          theme_path: ./themes/mytheme.json
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
